@@ -1,0 +1,101 @@
+h1 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 100%;
+    text-align: center;
+
+    width: 1083;
+    height: 77;
+    top: 46px;
+    left: 179px;
+}
+
+#image {
+    border: 4px solid #000000;
+    width: 463px;
+    height: 463px;
+    top: 165px;
+    left: 129px;
+    opacity: 1;
+    border-width: 4px;
+}
+
+#name {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 36px;
+    line-height: 100%;
+    
+}
+
+.name-container {
+    width: 463px;
+    height: 67px;
+    top: 659px;
+    left: 129px;
+    opacity: 1;
+    border-width: 1px;
+    border-radius: 10px;
+    background: #E8E8E8;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#type {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+#Pokemon-type {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 100%;
+    border-radius: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.button{
+    background-color: #E8E8E8;
+    width: 173px;
+    height: 69px;
+    border-radius: 10px;
+    border-style: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#left-arrow {
+    width: 61px;
+    height: 61px;
+    /* this ignores the pointer events of the image, 
+        allowing the button to be clickable 
+    */
+    pointer-events: none;
+}
+
+#right-arrow {
+    width: 61px;
+    height: 61px;
+    transform: rotate(-180deg);
+    /* this ignores the pointer events of the image, 
+        allowing the button to be clickable 
+    */
+    pointer-events: none;
+}
