@@ -4,22 +4,23 @@ h1 {
     font-style: Bold;
     font-size: 64px;
     line-height: 100%;
-    text-align: center;
+    width: 1083px;
+    height: 77px;
+}
 
-    width: 1083;
-    height: 77;
-    top: 46px;
-    left: 179px;
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+    margin-left: 100px;
 }
 
 #image {
     border: 4px solid #000000;
     width: 463px;
     height: 463px;
-    top: 165px;
-    left: 129px;
-    opacity: 1;
     border-width: 4px;
+    margin-left: 129px;
 }
 
 #name {
@@ -28,15 +29,11 @@ h1 {
     font-style: Regular;
     font-size: 36px;
     line-height: 100%;
-    
 }
 
 .name-container {
     width: 463px;
     height: 67px;
-    top: 659px;
-    left: 129px;
-    opacity: 1;
     border-width: 1px;
     border-radius: 10px;
     background: #E8E8E8;
@@ -44,6 +41,9 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 129px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 #type {
@@ -54,20 +54,34 @@ h1 {
     line-height: 100%;
 }
 
-#Pokemon-type {
+.Pokemon-type {
     font-family: Inter;
     font-weight: 400;
     font-style: Regular;
     font-size: 24px;
     line-height: 100%;
+    display: inline-block;
+    background-color:#A8A77A;
     border-radius: 10px;
+    Width: 117px;
+    Height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-container {
+    margin-left: 129px;
+    margin-top: 25px;
 }
 
 .button-container {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 20px;
+    gap: 50px;
+    margin-left: 166px;
+    margin-top: 40px;
 }
 
 .button{
@@ -98,4 +112,79 @@ h1 {
         allowing the button to be clickable 
     */
     pointer-events: none;
+}
+
+.layout{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#info-text{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    text-align: center;
+    margin-right: 30px;
+    position: relative;
+    top: -55px;
+}
+
+.info-container{
+    background-color: #E8E8E8;
+    width: 486px;
+    height: 598px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    position: relative;
+    top: -55px;
+}
+
+.text{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 36px;
+    line-height: 0;
+    margin-bottom: 0.3em;
+    padding-left: 40px;
+    position: relative;
+    top: 20px;
+}
+
+#info-button {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 36px;
+    line-height: 100%;
+    background-color: #7CFF79;
+    border-radius: 10px;
+    height: 69px;
+    width: 173px;
+    border-style: hidden;
+}
+
+#move-button {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 36px;
+    line-height: 100%;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    height: 69px;
+    width: 173px;
+    border-style: hidden;
+}
+
+.info-text-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
