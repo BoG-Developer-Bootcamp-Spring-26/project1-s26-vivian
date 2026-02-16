@@ -9,30 +9,59 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bits of Good Mid-Semester Project</h1>
-    <div class="image-container">
-        <img id="image" alt="Pokemon's Image">
+    <div class="heading">
+        <h1>Bits of Good Mid-Semester Project</h1>
     </div>
 
-    <div class="name-container">
-        <p id="name">Pokemon's Name</p>
+    <div class="layout">
+        <div class="left">
+            <div class="image-container">
+                <img id="image" alt="Pokemon's Image">
+            </div>
+
+            <div class="name-container">
+                <p id="name">Pokemon's Name</p>
+            </div>
+
+            <div class="type-container">
+                <p id="type">Types:</p>
+                <div class="Pokemon-type">Normal</div>
+            </div>
+
+            <div class="button-container">
+                <button class="button" id="left-button">
+                <img src="download.png" id="left-arrow">
+            </button>
+
+            <button class="button" id="right-button">
+                <img src="download.png" id="right-arrow">
+            </button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="right-container">
+                <p id="info-text">Info</p>
+                
+                <div class="info-container">
+                    <p class="text" id="height">height: </p>
+                    <p class="text" id="weight">weight: </p>
+                    <p class="text" id="hp">hp: </p>
+                    <p class="text" id="attack">attack: </p>
+                    <p class="text" id="defense">defense: </p>
+                    <p class="text" id="special-attack">special attack: </p>
+                    <p class="text" id="special-defense">special defense: </p>
+                    <p class="text" id="speed">speed: </p>
+                </div> 
+                
+                <div class="info-text-button">
+                    <button id="info-button">Info</button>
+                    <button id="move-button">Moves</button>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="type-container">
-        <p id="type">Types:</p>
-        <p id="Pokemon-type">Pokemon's Type</p>
-    </div>
-
-    <div class="button-container">
-        <button class="button" id="left-button">
-             <img src="download.png" id="left-arrow">
-        </button>
-
-        <button class="button" id="right-button">
-            <img src="download.png" id="right-arrow">
-        </button>
-    </div>
-
+    
     <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
