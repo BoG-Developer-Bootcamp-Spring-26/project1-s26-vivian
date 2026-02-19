@@ -54,21 +54,42 @@ h1 {
     line-height: 100%;
 }
 
-.Pokemon-type {
+#Pokemon-type {
+    display: flex;
+    gap: 20px;
+}
+
+.type-badge{
+    Width: 117px;
+    Height: 41px;
     font-family: Inter;
     font-weight: 400;
     font-style: Regular;
     font-size: 24px;
-    line-height: 100%;
-    display: inline-block;
-    background-color:#A8A77A;
     border-radius: 10px;
-    Width: 117px;
-    Height: 41px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.type-badge.normal {background-color: #A8A77A;}
+.type-badge.fire {background-color: #EE8130;}
+.type-badge.water {background-color: #6390F0;}
+.type-badge.electric {background-color: #F7D02C;}
+.type-badge.grass {background-color: #7AC74C;}
+.type-badge.ice {background-color: #96D9D6;}
+.type-badge.fighting {background-color: #C22E28;}
+.type-badge.poison {background-color: #A33EA1;}
+.type-badge.ground {background-color: #E2BF65;}
+.type-badge.flying {background-color: #A98FF3;}
+.type-badge.psychic {background-color: #F95587;}
+.type-badge.bug {background-color: #A6B91A;}
+.type-badge.rock {background-color: #B6A136;}
+.type-badge.ghost {background-color: #735797;}
+.type-badge.dragon {background-color: #6F35FC;}
+.type-badge.dark {background-color: #705746;}
+.type-badge.steel {background-color: #B7B7CE;}
+.type-badge.fairy {background-color: #D685AD;}
 
 .type-container {
     margin-left: 129px;
