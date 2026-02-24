@@ -184,7 +184,6 @@ h1 {
     font-style: Regular;
     font-size: 36px;
     line-height: 100%;
-    background-color: #7CFF79;
     border-radius: 10px;
     height: 69px;
     width: 173px;
@@ -197,7 +196,6 @@ h1 {
     font-style: Regular;
     font-size: 36px;
     line-height: 100%;
-    background-color: #E8E8E8;
     border-radius: 10px;
     height: 69px;
     width: 173px;
@@ -208,4 +206,16 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.move-item {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 0.3em;
+    padding-left: 40px;
+    position: relative;
+    top: 20px;
 }
