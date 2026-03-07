@@ -13,6 +13,7 @@ In this project, you'll be creating a frontend that graphically displays Pokémo
   - You can just post it to Youtube or provide a Google Drive link or whatever works.
 - Push all your changes to the remote repository. Make sure that the owner is BoG-Developer-Bootcamp-S26 so that we can see the repository! (if you forgot to do this, you can alternatively message Nathan on Slack with the link to your repo)
 - **Due Date:** 2/24/26
+Youtube link : https://youtu.be/fWiKUdvo7i0
 
 ## Requirements
 - Must use HTML, CSS, and JS
